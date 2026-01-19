@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Madani Arabic DEMO';
+    src: url('MadaniArabicDEMO-Black.woff2') format('woff2'),
+        url('MadaniArabicDEMO-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Madani Arabic DEMO';
+    src: url('MadaniArabicDEMO-Bold.woff2') format('woff2'),
+        url('MadaniArabicDEMO-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Madani Arabic DEMO';
+    src: url('MadaniArabicDEMO-Regular.woff2') format('woff2'),
+        url('MadaniArabicDEMO-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Madani Arabic DEMO';
+    src: url('MadaniArabicDEMO-Thin.woff2') format('woff2'),
+        url('MadaniArabicDEMO-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,430 @@
+@media (min-width: 1366px) and (max-width: 1399px) {
+
+    .container {
+        max-width: 1240px;
+    }
+
+}
+
+@media (min-width: 992px) {
+
+    /* common css start */
+    .header-mob-recipe-btn, .hdr-menu-social{
+        display: none;
+    }
+    /* common css ended */
+   
+    /* header menu css start */
+    .foodie_header_menu > li:hover a{
+        color: #0464a5;
+    }
+    .foodie_header_menu > li.have-submenu ul{
+        position: absolute; top: 50px; left: 0px; padding:5px 0px; margin: 0px; list-style-type: none; min-width: 200px; border: #d1d1d1 solid 1px; border-radius: 8px; background: #fff; display: none;
+    }
+    .foodie_header_menu > li.have-submenu ul li{
+        position: relative; padding: 0px 10px;
+    }
+    .foodie_header_menu > li.have-submenu ul li a{
+        width: 100%; display: inline-block; padding: 5px 0px; font-size: 0.8rem;
+    }
+    .foodie_header_menu li.have-submenu ul li a{
+        display: flex; justify-content: space-between;
+    }
+    .foodie_header_menu li.have-submenu:after,
+    .foodie_header_menu li.have-submenu ul li.have-submenu > a:after{
+        content: ''; width: 6px; height: 6px; position: relative; display: inline-block; border: solid black; border-width: 0 2px 2px 0; display: inline-block; padding: 3px; transform: rotate(45deg); top: -3px; right: -5px;
+    }
+    .foodie_header_menu li.have-submenu ul li.have-submenu > a:after{
+        top: 5px; right: 5px; transform: rotate(-45deg);
+    }
+    .foodie_header_menu li.have-submenu ul li.have-submenu:after{
+        display: none;
+    }
+    .foodie_header_menu > li.have-submenu ul li:hover a{
+        padding-left: 5px;
+    }
+    .foodie_header_menu > li.have-submenu:hover > ul{
+        display: block;
+    }
+    .foodie_header_menu > li.have-submenu:hover > ul li:hover > ul{
+        display: block; left: calc(100% + 0px); top: -5px;
+    }
+    .mobile_burger_btn, .mobile-menu-close-btn{
+        display: none;
+    }
+    /* header menu css ended */
+
+    /* home megamenu css start */
+    .foodie_header_menu li.mega-menu-li{
+        position: static;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu{
+        display: none;
+    }
+    .foodie_header_menu li.mega-menu-li:hover .mega-menu{
+        display: block;
+    }
+    .foodie_header_menu li.mega-menu-li  ul:hover{
+        padding: 0px;
+    }
+    .foodie_header_menu li.mega-menu-li  ul:hover a{
+        color: #000000; padding-left: 0px;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu{
+        width: 100%; position: absolute; top: 100%; left: 0px; background-color: #fff; box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul{
+        display: flex; position: relative; padding: 10px 15px; margin: 0px; top: 0; width: 100%; list-style-type: none; flex-wrap: wrap; gap: 15px;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul > li{
+        width: 24%;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul ul{
+        flex-direction: column; gap: 5px; padding: 0px; border: none;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul ul li{
+        width: 100%;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul label{
+        width: 100%; font-size: 1rem; font-weight: 500; margin-bottom: 5px;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul a{
+        color: #4d4d4d;
+    }
+    .foodie_header_menu li.mega-menu-li .mega-menu ul a:hover{
+        color: red;
+    }
+    /* home megamenu css ended */
+    
+}
+@media (max-width: 1440px) {
+
+    /* common css start */
+    .btn-dark, .btn-primary {
+        min-width: 168px; min-height: 48px; font-size: 12px; column-gap: 10px;
+    }
+    .btn-dark img, .btn-primary img{
+        width: 20px;
+    }
+    /* common css ended */
+
+    /* home hero section css start */
+    .home-hero-sctn{
+        padding: 40px 0px 0px;
+    }
+    .fodlnd-hero-slide-heading {
+        font-size: 54px;
+    }
+    .fodlnd-hero-slide-para {
+        font-size: 14px;
+    }
+    .fodlnd-hero-tag>img {
+        width: 20px;
+    }
+    .fodlnd-hero-tag {
+        font-size: 12px; column-gap: 8px;
+    }
+    .fodlnd-hero-badge {
+        font-size: 12px;
+    }
+    .fodlnd-hero-badge>img {
+        width: 18px;
+    }
+    /* home hero section css ended */
+}
+
+
+@media (max-width: 1281px) {
+
+    /*  home hero section css start */
+    .fodlnd-hero-slide-heading {
+        font-size: 48px;
+    }
+    .fodlnd-hero-slide-para {
+        font-size: 13px;
+    }
+    .hero-brand-badge {
+        width: 128px;
+    }
+    /*  home hero section css ended */
+
+}
+
+@media (max-width: 1199px) {
+
+    /*  home hero section css start */
+    .fodlnd-hero-slide-heading {
+        font-size: 46px;
+    }
+    .fodlnd-hero-slide-para {
+        font-size: 12px;
+    }
+    /*  home hero section css ended */
+
+}
+
+
+@media (max-width: 1024px) {
+
+    /* common css start */
+    .btn-dark, .btn-primary {
+        min-width: 149px; min-height: 44px; font-size: 10px; column-gap: 6px;
+    }
+    .btn-dark img, .btn-primary img {
+        width: 16px;
+    }
+    /* common css ended */
+
+    /*  home hero section css start */
+    .fodlnd-hero-slide-card .card-content-col-innr{
+        padding: 30px;
+    }
+    .fodlnd-hero-slide-card .lft-mid-row{
+        row-gap: 16px;
+    }
+    .fodlnd-hero-slide-heading {
+        font-size: 34px;
+    }
+    .fodlnd-hero-slide-para {
+        font-size: 12px; line-height: 1.4;
+    }
+
+    .user-avater-dp {
+        width: 40px; height: 40px;
+    }
+    .user-avater-title {
+        font-size: 14px;
+    }
+    .user-avater-subtitle {
+        font-size: 12px; font-weight: 400;
+    }
+
+    .hero-brand-badge {
+        width: 150px; right: -50px;
+    }
+    /*  home hero section css ended */
+
+}
+
+
+@media (max-width: 991px) {
+
+    /* common css start */
+    .hdr-rgt-col-social{
+        display: none;
+    }
+    /* common css ended */
+   
+    /* header burger menu css start */
+    .mobile_burger_btn{
+        width: 30px; height: 30px; position: relative; display: flex; justify-content: center; align-items: center; cursor: pointer; border: none; background: none;
+    }
+    .mobile_burger_btn>img{
+        width: 20px;
+    }
+    .mobile-menu-close-btn{
+        width: 30px; height: 30px; position: absolute; display: flex; justify-content: center; align-items: center; cursor: pointer; border: none; background: none; right: 10px;
+        top: 10px; z-index: 1;
+    }
+    .mobile-menu-close-btn>img{
+        width: 20px;
+    }
+    /* header burger menu css ended */
+
+    /* header section css start */
+    .foodie_header .row > div:nth-child(2){
+       order: 0;
+    }
+    .foodie_header .row > div:nth-child(1){
+       order: 1;
+    }
+    .foodie_header .row > div:nth-child(3){
+       order: 2;
+    }
+
+    .foodie_header_social{
+        margin: 0px -10px; padding-top: 10px;
+    }
+    .foodie_header_social > li {
+        padding: 0px 10px;
+    }
+    .foodie_header_social li img{
+        height: 12px;
+    }
+    /* header section css ended */
+
+    /* header menu css start */
+    .header-menu_wrap{
+        background-color: white; width: 95%; height: 100vh; position: fixed; top: 0px; left: -100%; z-index: 999; box-shadow: rgb(167, 167, 167) 0px 0px 10px; padding: 15px; transition: all ease 0.5s; overflow: hidden; display: flex; flex-direction: column;
+    }
+    .header-menu_wrap.opened{
+        left: 0%;
+    }
+    .foodie_header_menu{
+        /* display: none; */ flex-direction: column; margin-top: 20px; overflow: hidden; overflow-y: auto;  height: calc(100vh - 75px);
+    }
+    .foodie_header_menu > li {
+        width: 100%; margin: 0px 0px; padding: 10px 0px; border-bottom: #ebebeb solid 1px;
+    }
+    .foodie_header_menu li a{
+        width: 100%;
+    }
+
+    .foodie_header_menu li.have-submenu:after, 
+    .foodie_header_menu li ul li.have-submenu > a:after{
+        position: absolute; right: 10px; top:15px;
+    }
+
+
+    .header-menu_wrap li.mega-menu-li{
+        display: none;
+    }
+    .header-menu_wrap.megamenu-opened li.mega-menu-li{
+        display: block;
+    }
+    .header-menu_wrap.megamenu-opened li.mega-menu-li:after{
+        display: none;
+    }
+    .header-menu_wrap.megamenu-opened li.mega-menu-li > a{
+        padding-bottom: 12px; display: inline-block;
+    }
+    .header-menu_wrap.megamenu-opened li.mega-menu-li .mega-menu{
+        display: block;
+    }
+    .header-menu_wrap.megamenu-opened li.mega-menu-li label{
+        font-size: 14px; font-weight: 600;
+    }
+    .header-menu_wrap.megamenu-opened .foodie_header_menu{
+        margin-top: 0px;
+    }
+    .header-menu_wrap.megamenu-opened .foodie_header_menu > li:not(.mega-menu-li){
+        display: none;
+    }
+    /* header menu css ended */
+
+    /* header mobile menu css start */
+    .foodie_header_menu > li > ul{
+        display: none;        
+    }
+    .foodie_header_menu > li ul{
+        position: relative; list-style-type: none; padding: 0px 0px 0px 10px; margin: 0px;
+    }
+    .foodie_header_menu > li ul li a{
+        font-size: 0.8rem;
+    }
+    .foodie_header_menu > li ul ul{
+        padding: 0px 0px 0px 5px;
+    }
+    .foodie_header_menu > li ul ul a{
+        color: #4d4d4d;
+    }
+    .foodie_header_menu > li.have-submenu:after{
+        content: ''; width: 6px; height: 6px; position: relative; display: inline-block; border: solid black; border-width: 0 2px 2px 0; display: inline-block; padding: 3px; transform: rotate(45deg); top: 15px; right: 10px; position: absolute; transition: all ease 0.5s;
+    }
+    .foodie_header_menu > li.active:after{
+        transform: rotate(-135deg);
+    }
+    .btn-dark.header-mob-recipe-btn{
+        min-width: 95px; min-height: 38px; border-radius: 10px; font-size: 12px;
+    }
+    /* header mobile menu css ended */
+
+
+    /* home hero section css start */
+    .hero-brand-badge {
+        width: 110px;
+    }
+    .fodlnd-hero-slide-card .card-content-col-innr {
+        row-gap: 15px;
+    }
+    .home-hero-sctn {
+        padding: 20px 0px;
+    }
+    .fodlnd-hero-slide-card .card-content-col {
+        position: absolute; bottom: 20px; z-index: 1; background-color: rgba(231, 250, 254, 0.9); border-radius: 20px; width: 95%; transform: translateX(-50%); left: 50%;
+    }
+    .hero-brand-badge{
+        top: -50px; right: 45px;
+    }
+    .foodielandHero .slick-list{
+        padding: 0px 30px !important;
+    }
+    /* home hero section css ended */
+
+}
+
+
+
+@media (max-width: 580px) {
+
+    /* common css start */
+    .btn-dark, .btn-primary {
+        min-width: 120px; min-height: 32px; font-size: 10px; column-gap: 6px; border-radius: 6px;
+    }
+    .section-title{
+        font-size: 24px; margin-bottom: 15px;
+    }
+    /* common css ended */
+
+    /* common slick slider css start */
+    .slick-prev {
+        left: 25px;
+    }
+    .slick-next {
+        right: 25px;
+    }
+    /* common slick slider css ended */
+
+    /* hero section css start */
+    .foodielandHero .slick-prev {
+        left: 5px;
+    }
+    .foodielandHero .slick-next {
+        right: 5px;
+    }
+    .foodielandHero .slick-dots {
+        bottom: 0px;
+    }
+    .foodielandHero .slick-slide {
+        margin: 0px 10px;
+    }
+    .fodlnd-hero-slide-card .card-content-col-innr {
+        padding: 16px;
+    }
+    .fodlnd-hero-slide-card .lft-mid-row {
+        row-gap: 10px;
+    }
+    .fodlnd-hero-slide-heading {
+        font-size: 20px;
+    }
+    .fodlnd-hero-slide-para {
+        font-size: 10px;
+    }
+    .fodlnd-hero-tag {
+        font-size: 10px; padding: 7px 12px;
+    }
+    .hero-brand-badge {
+        width: 75px; top: -35px; right: 45px;
+    }
+
+    .user-avater-card, .fodlnd-hero-tag-list{
+        display: none;
+    }
+    .hero-brand-badge {
+        width: 55px; top: -32px; right: 45px;
+    }
+    .fodlnd-hero-slide-heading {
+        font-size: 15px;
+    }
+    .fodlnd-hero-badge{
+        position: absolute; top: -30px; font-size: 10px; padding: 7px 13px;
+    }
+    .fodlnd-hero-badge>img {
+        width: 14px;
+    }
+    
+    .foodielandHero .slick-dots {
+        position: relative;
+    }
+    /* hero section css ended */
+}
